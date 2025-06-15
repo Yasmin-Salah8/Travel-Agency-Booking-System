@@ -1,0 +1,18 @@
+-- Travel Agency Booking Page Database SQL Dump
+
+-- Create table
+CREATE TABLE bookings (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  WhereTo varchar(55) NOT NULL,
+  HowMany varchar(55) NOT NULL,
+  Arrivals date NOT NULL,
+  Leaving date NOT NULL,
+  Name varchar(55) NOT NULL,
+  Email varchar(55) NOT NULL,
+  Phone varchar(25) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Insert sample data
+INSERT INTO booking (` WhereTo `, HowMany, Arrivals, Leaving, Name, Email, `Phone`) VALUES
+(:WhereTo, :HowMany, :Arrivals, :Leaving, :Name, :Email, :Phone);

@@ -1,0 +1,15 @@
+CREATE TABLE `packages` (
+  `id` int(15) NOT NULL AUTO_INCREMENT,
+  `USA` varchar(11) NOT NULL,
+  `England` varchar(11) NOT NULL,
+  `Indonesia` varchar NOT NULL,
+  `Scotland` varchar NOT NULL,
+  `Spain` varchar(11) NOT NULL,
+  `Norway` varchar(11) NOT NULL,
+  `Italy` varchar(11) NOT NULL,
+  `Maldives` varchar(11) NOT NULL,
+  `Philippines` varchar(11) NOT NULL,
+  `France` varchar(11) NOT NULL,
+  `Greece` varchar(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

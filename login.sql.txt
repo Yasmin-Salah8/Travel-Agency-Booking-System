@@ -1,0 +1,10 @@
+CREATE TABLE login (
+  id int(20) NOT NULL AUTO_INCREMENT,
+  user varchar(55) NOT NULL,
+  pass varchar(10) NOT NULL,
+    PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Insert sample data
+INSERT INTO customer (` user `,  `pass`) VALUES
+(:user, :pass);

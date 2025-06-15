@@ -1,0 +1,12 @@
+CREATE TABLE review(
+    id INT (20) NOT NULL AUTO_INCREMENT,
+    fullname VARCHAR(55) NOT NULL,
+    email VARCHAR(55) NOT NULL,
+    message TEXT NOT NULL,
+     PRIMARY KEY (`id`)
+  )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+-- Insert sample data
+INSERT INTO customer (` fullname `,  `email` ,`message`) VALUES
+(:fullname, :email, :message);
